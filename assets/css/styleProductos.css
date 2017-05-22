@@ -1,0 +1,30 @@
+.colorRojo {
+  background: red;
+}
+.bajar {
+  margin-top: 3%;
+}
+.tamaño30 {
+  width: 40%;
+}
+.tamaño20 {
+  width: 35%;
+}
+.tamaño10 {
+  width: 30%;
+}
+.centrar {
+  text-align: center;
+}
+.colorAzul {
+  background: blue;
+}
+.colorVerde {
+  background: green;
+}
+.colorPurpura {
+  background: purple;
+}
+.alinear {
+  margin-left: 10%;
+}
