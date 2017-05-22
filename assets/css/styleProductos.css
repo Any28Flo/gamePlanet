@@ -25,8 +25,11 @@
   background: purple;
 }
 .alinear {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .borderNovedades {
   border: 2px solid black;
+}
+.justificar {
+  text-align: justify;
 }
