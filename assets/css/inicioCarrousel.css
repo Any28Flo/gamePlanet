@@ -1,0 +1,34 @@
+li.indicadoresColor{
+ background-color:blue;
+}
+li.indicadoresColor.active{
+  background-color: green;
+}
+
+.carouselTam{
+  width: 100%;
+  height: 40em;
+  align-self: center;
+}
+.logoBanner{
+  background-color: blue;
+  filter:grayscale(50%);
+
+}
+.botonPrueba{
+  color: white;
+  font-size: 1em;
+  background-color:#fc261b;
+}
+.descripcion{
+  font-size: 1.5em;
+  font-family:"Roboto", sans-serif;
+  color: white;
+  width: 100%;
+  padding: 30px;
+}
+.imagen{
+  filter: grayscale(30%);
+  position: relative;
+  top: 5.5em;
+}
