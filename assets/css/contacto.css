@@ -1,0 +1,19 @@
+/*form estilos*/
+.label-texto {
+    color:#0058aa;
+  }
+
+.contenedor-mapa {
+  background-color:#0058aa;
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.border-form {
+  padding-top: 50px;
+}

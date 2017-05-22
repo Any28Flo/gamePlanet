@@ -2,19 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Game Planet</title>
+
+    <title>gamePlanet</title>
+    <!-- Todos los css van aqui -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="assets/css/inicioCarrousel.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/comunidadPlanetaria.css">
     <!-- <link rel="stylesheet" href="assets/css/materialize.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/styleProductos.css">
+    <link rel="stylesheet" href="assets/css/headerFooter.css">
+
   </head>
+  
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <header class="header row ">
 
+
+        <section class="row color">
+
+          <div class="col s12 ">
+            <nav class="color">
+              <div > <img src="assets/img/logo.png" alt="" class=" logo brand-logo center">
+                <ul id="nav-mobile" class="left ">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                  <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                  </div>
+                  <button type="submit" class="btn btn-default">Enviar</button>
+                </form>
+
+              </div>
+            </nav>
+          </div>
+        </section>
       </header>
       <section class=" carrousel row">
         <div class="col-md-12">
@@ -69,11 +101,77 @@
               </a>
             </div>
        </div>
-
       </section>
-
       <section class="row">
-
+        <section class="row promociones col-md-9">
+          <section class="col-md-12">
+            <h2 class="col-md-12">Aprovecha las Promociones!!</h2>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento30.jpg" class="col-md-5 tamaño30">
+              <p class="col-md-7 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-4">precio Actual</p>
+              <p class="col-md-7">comprar</p>
+            </div>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento20.jpg" class="col-md-7 tamaño20">
+              <p class="col-md-5 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-3">precio Actual</p>
+              <p class="col-md-5">comprar</p>
+            </div>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento10.jpg" class="col-md-5 tamaño10">
+              <p class="col-md-7 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-4">precio Actual</p>
+              <p class="col-md-3">comprar</p>
+            </div>
+          </section>
+          <section class="productos col-md-12 colorRojo">
+            <h3 class="col-md-12 centrar">Productos</h3>
+            <div class="col-md-4">
+              <img src="https://dummyimage.com/200x200" class="alinear">
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+            </div>
+            <div class="col-md-4">
+              <img src="https://dummyimage.com/200x200" class="alinear">
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>            </div>
+            <div class="col-md-4">
+              <img src="https://dummyimage.com/200x200" class="alinear">
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>
+              <p class="col-md-12 alinear">datos</p>            </div>
+          </section>
+        </section>
+          <aside class="novedades col-md-3 colorRojo">
+              <h5 class="col-md-12 centrar">NOVEDADES</h5>
+              <div class="col-md-12 colorAzul">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+              </div>
+              <div class="col-md-12 colorVerde">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+              </div>
+              <div class="col-md-12 colorPurpura">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+              </div>
+          </aside>
       </section>
       <section class=" row">
         <h2 class="rowcomunidad text-center">Comunidad GamePlanetaria </h2>
@@ -124,16 +222,46 @@
 
           </aside>
         </section>
+      <footer class="footer row page-foote">
+        <div class="col s12 color">
+          <div class="row">
+            <div class="col s2">
+              <h5>INFORMACION</h5>
 
-      </section>
-      <footer class="footer row">
 
+            </div>
+            <div class="col s2 ">
+              <h5>SERVICIO AL CLIENTE</h5>
+
+
+            </div>
+            <div class="col s2">
+              <h5>MI CUENTA</h5>
+
+
+            </div>
+            <div class="col s3">
+              <h5>CONTACTOS</h5>
+
+
+            </div>
+            <div class="col s3">
+              <h5>FORMAS DE PAGO</h5>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
       </footer>
-
     </div>
     <!--Import jQuery before materialize.js-->
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <script async src="//platform.twitter.com/widgets.js" ></script>
      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
   </body>
 </html>
