@@ -1,17 +1,16 @@
-.colorRojo {
-  background: red;
-}
+
 .bajar {
-  margin-top: 3%;
+  margin-top: 7%;
 }
+
 .tamaño30 {
-  width: 40%;
+  width: 100%;
 }
 .tamaño20 {
-  width: 35%;
+  width: 90%;
 }
 .tamaño10 {
-  width: 30%;
+  width: 80%;
 }
 .centrar {
   text-align: center;
@@ -27,4 +26,7 @@
 }
 .alinear {
   margin-left: 10%;
+}
+.borderNovedades {
+  border: 2px solid black;
 }
