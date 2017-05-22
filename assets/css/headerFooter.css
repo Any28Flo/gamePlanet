@@ -4,7 +4,6 @@ margin: 0;
 padding: 0;
 border-radius: 800px;
 margin-top: -6%;
-
 }
 .margen{
   padding: 0;
@@ -18,11 +17,40 @@ margin-top: -6%;
   background-color: red;
   margin-top: 3%;
   height:  40%;
-
-
 }
 
-@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+nav {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+li > a {
+  color:white;
+  font-weight: bold;
+}
+
+.div-buscar {
+  margin-top: 10px;
+}
+
+.contenedor-logo {
+  position: relative;
+}
+
+.logo-gp {
+  position:absolute;
+  z-index: 88;
+  margin-top: -15%;
+  background-color: white;
+  margin-left: 10%;
+}
+
+.margenes {
+  margin-top: 2.5%;
+  margin-bottom: 10%;
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Cabin:400);
 
 .webdesigntuts-workshop {
 	background: #151515;
@@ -30,4 +58,4 @@ margin-top: -6%;
 	position: absolute;
 	text-align: center;
 	width: 10%;
-}
+}*/

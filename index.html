@@ -22,32 +22,32 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <header class="header row ">
-
-
-        <section class="row color">
-
-          <div class="col s12 ">
-            <nav class="color">
-              <div > <img src="assets/img/logo.png" alt="" class=" logo brand-logo center">
-                <ul id="nav-mobile" class="left ">
-                  <li><a href="sass.html">Sass</a></li>
-                  <li><a href="badges.html">Components</a></li>
-                  <li><a href="collapsible.html">JavaScript</a></li>
-                </ul>
-                <form class="navbar-form navbar-right" role="search">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Buscar">
-                  </div>
-                  <button type="submit" class="btn btn-default">Enviar</button>
-                </form>
-
-              </div>
+  <!-- HEADER Y MENU DE NAVEGACIÓN -->
+    <header>
+      <div class="container-fluid margenes">
+        <section class="row color ">
+          <div class="col-md-4">
+            <nav>
+              <ul class=" nav navbar-nav left">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Promos</a></li>
+              </ul>
             </nav>
-          </div>
-        </section>
-      </header>
+            </div>
+            <div class="col-md-4 contenedor-logo">
+              <img src="assets/img/gameplanet-logo-gp.png" alt="gamePlanet" class="logo logo-gp">
+            </div>
+            <div class="col-md-3 div-buscar">
+              <input type="text" class="form-control" placeholder="Nombre del producto">
+            </div>
+            <div class="col-md-1 div-buscar">
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </div>
+          </section>
+        </div>
+    </header>
       <section class=" carrousel row">
         <div class="col-md-12">
             <div id="myCarousel" class="carousel slide carouselTam" data-ride="carousel">
