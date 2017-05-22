@@ -6,7 +6,6 @@
     <title>Game Planet - Contacto</title>
     <link rel="stylesheet" href="assets/css/contacto.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/materialize.min.css"> -->
   </head>
   <body>
     <!-- HEADER Y MENU DE NAVEGACIÓN -->
@@ -16,24 +15,56 @@
     <!-- SECCIÓN DE FORMULARIO DE CONTACTO -->
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <form class="form-block" action="index.html" method="post">
-            <input type="text" class="input-campo" id="exampleInputEmail3" placeholder="Nombre completo">
-            <input type="email" class="input-campo" id="exampleInputEmail3" placeholder="Correo electrónico">
-            <p>
-              <textarea name="message" rows="8" cols="80"></textarea>
-            </p>
+        <div class="col-md-6 border-form">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputName3" class="col-sm-2 control-label label-texto">Nombre</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control input-lg">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label label-texto">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control input-lg">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <textarea class="form-control" name="message" rows="10" cols="61" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
           </form>
         </div>
+        <section class="col-md-6 contenedor-mapa">
+          <h3>Encuentra la sucursal más cercana</h3>
+          <p>
+            ¡En todas nuestras sucursales podrás encontrar las consolas, promociones y accesorios más cool!
+          </p>
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d60207.30818689731!2d-99.18848622228155!3d19.41427408523353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgameplanet!5e0!3m2!1ses-419!2smx!4v1495463683702" width="500" height="350" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+          </p>
+        </section>
       </div>
     </div>
+    <!-- SECCIÓN DE MAPA DE SUCURSALES -->
+    <section class="container">
+      <section class="row">
 
+        <section class="col-md-6">
+
+        </section>
+      </section>
+    </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
