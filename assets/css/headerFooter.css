@@ -1,0 +1,33 @@
+.logo {
+border: 2px solid grey;
+margin: 0;
+padding: 0;
+border-radius: 800px;
+margin-top: -6%;
+
+}
+.margen{
+  padding: 0;
+  margin: 0;
+}
+
+.abajo {
+  padding:  20%;
+}
+.color{
+  background-color: red;
+  margin-top: 3%;
+  height:  40%;
+
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+
+.webdesigntuts-workshop {
+	background: #151515;
+	height: 10%;
+	position: absolute;
+	text-align: center;
+	width: 10%;
+}
