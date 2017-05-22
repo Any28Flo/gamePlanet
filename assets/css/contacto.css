@@ -17,3 +17,18 @@ iframe {
 .border-form {
   padding-top: 50px;
 }
+
+/*Clau estilos*/
+.paddingCinco{
+    padding: 5%;
+}
+.marginCinco{
+    margin: 5%;
+}
+.marginDos{
+    margin: 1%;
+}
+.etiquetas{
+    display: flex;
+    justify-content: space-around;
+}

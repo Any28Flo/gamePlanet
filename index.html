@@ -7,6 +7,14 @@
     <!-- Todos los css van aqui -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/inicioCarrousel.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/comunidadPlanetaria.css">
+    <!-- <link rel="stylesheet" href="assets/css/materialize.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/styleProductos.css">
     <link rel="stylesheet" href="assets/css/headerFooter.css">
@@ -15,7 +23,6 @@
 
   <body>
     <div class="container-fluid">
-
       <header class="header row ">
 
 
@@ -41,31 +48,72 @@
           </div>
         </section>
       </header>
+      <section class=" carrousel row">
+        <div class="col-md-12">
+            <div id="myCarousel" class="carousel slide carouselTam" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="indicadoresColor"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="indicadoresColor"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="indicadoresColor"></li>
+                <li data-target="#myCarousel" data-slide-to="3" class="indicadoresColor"></li>
 
+              </ol>
 
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner carouselTam">
 
+                <div class="item active ">
+                  <img src="assets/img/xbox-9.svg" alt="xbox" class="imagen">
+                </div>
 
-      <section class="row">
+                <div class="item ">
+                  <img src="assets/img/PS4_PlayStation_4_logo.png" alt="ps4" class="imagen">
+                </div>
 
+                <div class="item">
+                  <img src="assets/img/Nintendo-Switch-Logo-Vector.png" alt="nintendo switch" class="">
+                </div>
+                <div class="item  text-center row">
+                    <div class="col-md-12 carouselTam text-center logoBanner">
+                      <img src="assets/img/gameplanet-logo.png" alt="xbox" >
+                      <p class="descripcion  text-center row" >
+                         En Game Planet queremos que al encender tu consola
+                         entres en un mundo de
+                         diversión y alegria en donde el tiempo no
+                          pasa y eres joven por siempre
+                     </p>
+                     <button type="button" class="btn text-center row botonPrueba" name="button"> Catálogo </button>
+
+                    </div>
+
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+       </div>
       </section>
       <section class="row">
         <section class="row promociones col-md-9">
           <section class="col-md-12">
-            <h2 class="col-md-12">Aprovecha nuestras Promociones!!</h2>
-            <div class="row  col-md-12">
-              <div class="col-md-3">
-                  <img src="assets/img/consolaXbox.jpg" class="tamaño30">
-              </div>
-              <div class="col-md-6">
-                <p class="bajar"><a href="#">CONSOLA XBOX 360 SLIM CON LEGO PIRATES OF THE CARIBBEAN</a></p>
-                <p class="small">360 por MICROSOFT</p>
-                <p class="">Normal: $3,990.00</p>
-                <p class="">Con descuento: %2,925.00</p>
-              </div>
-              <div class="col-md-3">
-                  <img src="assets/img/descuento30.jpg" class="tamaño30 bajar">
-              </div>
+            <h2 class="col-md-12">Aprovecha las Promociones!!</h2>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento30.jpg" class="col-md-5 tamaño30">
+              <p class="col-md-7 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-4">precio Actual</p>
+              <p class="col-md-7">comprar</p>
             </div>
+
             <div class="row  col-md-12">
               <div class="col-md-3">
                   <img src="assets/img/fifaps4.jpg" class="tamaño30">
@@ -93,10 +141,24 @@
               <div class="col-md-3">
                   <img src="assets/img/descuento10.jpg" class="tamaño10 bajar">
               </div>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento20.jpg" class="col-md-7 tamaño20">
+              <p class="col-md-5 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-3">precio Actual</p>
+              <p class="col-md-5">comprar</p>
+            </div>
+            <div class="row colorRojo col-md-12">
+              <img src="assets/img/descuento10.jpg" class="col-md-5 tamaño10">
+              <p class="col-md-7 bajar">Descripcion</p>
+              <p class="col-md-3">precio origional</p>
+              <p class="col-md-4">precio Actual</p>
+              <p class="col-md-3">comprar</p>
+
             </div>
 
           </section>
-          <section class="productos col-md-12">
+          <section class="productos col-md-12 colorRojo">
             <h3 class="col-md-12 centrar">Productos</h3>
             <div class="col-md-4">
               <img src="assets/img/producto1.jpg" class="alinear">
@@ -121,8 +183,9 @@
             </div>
           </section>
         </section>
-          <aside class="novedades col-md-3 bajar borderNovedades">
+          <aside class="novedades col-md-3 colorRojo">
               <h5 class="col-md-12 centrar">NOVEDADES</h5>
+
               <div class="col-md-12">
                 <img src="assets/img/novedad1.jpg" class="col-md-12 alinear">
                 <p class="col-md-12 justificar alinear">
@@ -162,24 +225,78 @@
                   semanas el nuevo juego de la saga
                   que enfrenta a los Templarios
                   y los Asesinos.</p>
+
+              <div class="col-md-12 colorAzul">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+              </div>
+              <div class="col-md-12 colorVerde">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+              </div>
+              <div class="col-md-12 colorPurpura">
+                <img src="https://dummyimage.com/80x80" class="col-md-9 alinear">
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+                <p class="col-md-12">datos</p>
+
               </div>
           </aside>
-          <div class="">
+       
+      </section>
+      <section class=" row">
+        <h2 class="rowcomunidad text-center">Comunidad GamePlanetaria </h2>
+        <section class="row">
+          <div class=" col-md-8 embed-responsive text-center embed-responsive-16by9">
+            <iframe width="60%" height="auto" src="https://www.youtube.com/embed/mS-G9sEJ64U" frameborder="0" class="row"></iframe>
+            <section class="row">
 
+            </section>
           </div>
-      </section>
+          <aside class="col-md-4">
+          <div class="panel panel-primary twitter-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title text-center">Twitter</h3>
+            </div>
+            <div class="panel-body">
+              <blockquote class="twitter-tweet" data-cards="" data-lang="es">
+                <p lang="es" dir="ltr">Crash necesitará tu ayuda para derrotar a Neo Cortex <br>
+                  Aparta desde $79 en sucursal o en líneaaaa:
+                  <a href="https://t.co/dSVgm2OdsK">https://t.co/dSVgm2OdsK</a>
+                  <a href="https://t.co/dqMllbk0gW">pic.twitter.com/dqMllbk0gW</a></p>&mdash;
+                  Gameplanet (@Gameplanet_Mex) <a href="https://twitter.com/Gameplanet_Mex/status/866745600628445184">
+                    22 de mayo de 2017</a>
+              </blockquote>
 
-      <section class="row">
+            </div>
+            <div class="panel-body">
+              <blockquote class="twitter-tweet" data-cards="hidden" data-lang="es">
+                <p lang="es" dir="ltr">La lucha entre el capitán Cutter y Atriox continúa.
+                  <br>Disponible en sucursales y tienda en línea:<a href="https://t.co/6W0Sdz6SKs">
+                    https://t.co/6W0Sdz6SKs</a> <a href="https://t.co/GlzQJJmNvP">
+                      pic.twitter.com/GlzQJJmNvP</a></p>
+                      &mdash; Gameplanet (@Gameplanet_Mex)
+                  <a href="https://twitter.com/Gameplanet_Mex/status/866730505261252608">
+                    22 de mayo de 2017</a>
+                  </blockquote>
+            </div>
+            <div class="panel-body">
+              <blockquote class="twitter-tweet" data-lang="es">
+                <p lang="es" dir="ltr">¡Demuestra que puedes ser el mejor de México y el mundo!
+                  <br>Regístrate acá:<a href="https://t.co/RD8ehl67Jq">https://t.co/RD8ehl67Jq</a>
+                  <a href="https://t.co/WuOVOCgwg7">pic.twitter.com/WuOVOCgwg7</a></p>&mdash;
+                  Gameplanet (@Gameplanet_Mex)
+                   <a href="https://twitter.com/Gameplanet_Mex/status/866715420853772290">
+                     22 de mayo de 2017</a></blockquote>
+            </div>
+        </div>
 
-      </section>
-
-
-
-
-
-
-
-
+          </aside>
+        </section>
       <footer class="footer row page-foote">
         <div class="col s12 color">
           <div class="row">
@@ -213,14 +330,12 @@
           </div>
 
         </div>
-
-
-
       </footer>
-
     </div>
     <!--Import jQuery before materialize.js-->
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+       <script async src="//platform.twitter.com/widgets.js" ></script>
+     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
      <script type="text/javascript" src="js/materialize.min.js"></script>
 
   </body>

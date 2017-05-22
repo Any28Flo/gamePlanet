@@ -6,12 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/catalogo.css">
+    <link rel="stylesheet" href="assets/css/estilosmonse.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <link rel="stylesheet" href="assets/css/headerFooter.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
   </head>
   <body>
+
+    <header>
+      <div class="container-fluid margenes">
+        <section class="row color ">
+          <div class="col-md-4">
+            <nav>
+              <ul class=" nav navbar-nav left">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="catalogo.html">Accesorios</a></li>
+                <li><a href="catalogo.html">Promos</a></li>
+              </ul>
+            </nav>
+            </div>
+            <div class="col-md-4 contenedor-logo">
+              <img src="assets/img/gameplanet-logo-gp.png" alt="gamePlanet" class="logo logo-gp">
+            </div>
+            <div class="col-md-3 div-buscar">
+              <input type="text" class="form-control" placeholder="Nombre del producto">
+            </div>
+            <div class="col-md-1 div-buscar">
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </div>
+          </section>
+        </div>
+    </header>
     <div class="container">
-      <div class="row">
+      <div class="row" id="promos">
         <div class="col-md-2">
           <div class=" tabla panel panel-primary">
             <div class="panel-heading">XBOX</div>
@@ -33,12 +63,202 @@
           </div>
 
         </div>
-        <div class="col-md-10">
+        <div class="col-md-1">
 
+        </div>
+
+        <br>
+
+        <section class="container">
+          <br>
+          <br>
+            <div class="col-md-10">
+                <div id="myCarousel" class="carousel slide carouselTamaño">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel col-md-4" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel col-md-4" data-slide-to="1"></li>
+                    <li data-target="#myCarousel col-md-4" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                  </ol>
+                  <!-- Carousel items -->
+                  <div class="carousel-inner carouselTamaño ">
+                    <div class="active item  col-md-12">
+                      <img  class="col-md-4" src="img/promo5.jpg" alt="banner1" />
+                      <img   class="col-md-4" src="img/promo.jpg" alt="banner2" />
+                      <img  class="col-md-4"  src="img/promo2.jpg" alt="banner3" />
+                    </div>
+                    <div class="item  col-md-12">
+                      <img class="col-md-4" src="img/promo3.jpg" alt="banner4" />
+                      <img  class="col-md-4" src="img/promo4.jpg" alt="banner5" />
+                      <img  class="col-md-4" src="img/promo4.jpg" alt="banner5" />
+                    </div>
+                    <div class="item  col-md-12">
+                      <img class="col-md-4" src="img/promo3.jpg" alt="banner4" />
+                      <img  class="col-md-4" src="img/promo4.jpg" alt="banner5" />
+                      <img  class="col-md-4" src="img/promo4.jpg" alt="banner5" />
+                    </div>
+
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+         </section>
+
+
+
+
+
+
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>XBOX</h1>
+
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-1">
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/ps4-metal-slime.jpg" alt="15px">
+          <p>Dragon Quest Metal Slime Edition</p>
+          <p>$350</p>
+          </a>
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/ps4-battlefront.jpg" alt="15px">
+          <p>Star Wars: Battlefront Edición Limitada</p>
+          <p>$350</p>
+          </a>
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/ps4-20-aniversario.jpg" alt="15px">
+          <p>PlayStation 20th Anniversary Edition</p>
+          <p>$350</p>
+          </a>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>PLAY STATION</h1>
+
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-1">
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-mk.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-halo.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-cod.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>NINTENDO</h1>
+
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-1">
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-mk.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
+
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-halo.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
+        </div>
+        <div class=" tabla col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="assets/img/xbox-one-cod.jpg" alt="15px">
+          <p>Consola Xbox One Mortal Combat X</p>
+          <p>$350</p>
+          </a>
         </div>
 
       </div>
 
     </div>
+    <footer>
+      <div class="container ">
+        <div class="row margen">
+          <div class="col-md-4">
+            <img src="assets/img/gp-icon.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            contacto
+            <div class="container">
+              Nos encuentras 
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <h4>Servicios al cliente</h4>
+            <p>Preguntas frecuentes</p>
+            <p>Formas de pago</p>
+            <p>Compras en linea</p>
+          </div>
+        </div>
+
+
+      </div>
+    </footer>
+
   </body>
 </html>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.myCarousel').carousel()
+        interval: 3000
+    });
+   </script>
