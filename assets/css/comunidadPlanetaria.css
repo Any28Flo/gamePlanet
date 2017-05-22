@@ -7,5 +7,8 @@ font-style: oblique;
 
 blockquote p {
   font-size: 1em;
-  
+
+}
+.titleCom{
+  font-family: 'Roboto Slab', serif;
 }
