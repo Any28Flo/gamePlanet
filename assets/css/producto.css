@@ -1,3 +1,23 @@
 .miniaturas >li{
 	list-style: none;
 }
+
+.fondo-black {
+	background-color: black;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.smll-txt {
+	font-size: 10px;
+}
+
+.red-txt {
+	color: red;
+}
