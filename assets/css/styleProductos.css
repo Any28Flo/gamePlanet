@@ -1,0 +1,32 @@
+
+.bajar {
+  margin-top: 7%;
+}
+
+.tamaño30 {
+  width: 100%;
+}
+.tamaño20 {
+  width: 90%;
+}
+.tamaño10 {
+  width: 80%;
+}
+.centrar {
+  text-align: center;
+}
+.colorAzul {
+  background: blue;
+}
+.colorVerde {
+  background: green;
+}
+.colorPurpura {
+  background: purple;
+}
+.alinear {
+  margin-left: 10%;
+}
+.borderNovedades {
+  border: 2px solid black;
+}
